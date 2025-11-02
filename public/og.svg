@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#eef5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="#111827">
+    <text x="120" y="300" font-family="Inter, Pretendard, system-ui, -apple-system" font-weight="800" font-size="84" letter-spacing="-0.02em">Parkly</text>
+  </g>
+  <g stroke="#3A76F0" stroke-width="6" fill="none" opacity="0.95">
+    <path d="M150 410 C 260 380, 390 380, 500 410" />
+    <path d="M540 410 C 680 380, 860 380, 1020 410" />
+  </g>
+  <text x="120" y="470" fill="#334155" font-family="Inter, Pretendard, system-ui, -apple-system" font-size="28">Premium Valet & Parking Solutions</text>
+</svg>

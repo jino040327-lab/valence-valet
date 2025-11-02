@@ -1,7 +1,34 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .input { @apply w-full rounded-xl border border-neutral-300 px-3 py-2 outline-none focus:border-neutral-900; }
+html{scroll-behavior:smooth}
+[data-reveal]{opacity:0;transform:translateY(12px);transition:opacity .7s ease,transform .7s ease;will-change:opacity,transform}
+[data-reveal].is-visible{opacity:1;transform:translateY(0)}
+@media (prefers-reduced-motion: reduce){[data-reveal]{transition:none;transform:none;opacity:1}}
+
+body{background:#fff;color:#111827;font-family:var(--font-noto),var(--font-inter),-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+h1,h2,h3,h4,h5,h6{letter-spacing:-.02em}
+.text-brand{color:#3A76F0}
+.bg-brand{background-color:#3A76F0}
+
+/* ---------- Parkly global type reset ---------- */
+:root { --parkly-font: "Pretendard Variable", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+
+html, body {
+  font-family: var(--parkly-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+grep -q ".hero-car-img" app/globals.css || \
+cat >> app/globals.css <<'CSS'
+
+/* ---------- Hero car tuning ---------- */
+.hero-car-img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 0 0.01px rgba(0,0,0,0.01));
 }

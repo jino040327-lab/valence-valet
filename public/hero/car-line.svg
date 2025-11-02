@@ -1,0 +1,11 @@
+<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Base line (ground + side profile) -->
+  <path d="M80 200c100-6 210-16 300-20 180-8 300 10 420 24 120 14 240 18 330 14-20-22-56-34-112-34-90 3-198 3-300-14-132-46-324-38-420-8-16 6-34 16-46 24-58-6-128-5-172-2" stroke="#3A76F0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Roof curve -->
+  <path d="M400 176c120-56 360-58 510 0" stroke="#3A76F0" stroke-width="10" stroke-linecap="round"/>
+  <!-- Windshield short line -->
+  <path d="M600 182l-94 44" stroke="#3A76F0" stroke-width="10" stroke-linecap="round"/>
+  <!-- Wheels -->
+  <path d="M500 210a28 28 0 1 1-56 0" stroke="#3A76F0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M940 210a28 28 0 1 1-56 0" stroke="#3A76F0" stroke-width="10" stroke-linecap="round"/>
+</svg>
